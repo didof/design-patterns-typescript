@@ -1,0 +1,24 @@
+{
+  "name": "design_patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rmdir dist /s",
+    "start": "npm run clear && tsc && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didof/design-patterns-typescript.git"
+  },
+  "keywords": [],
+  "author": "prostagm4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didof/design-patterns-typescript/issues"
+  },
+  "homepage": "https://github.com/didof/design-patterns-typescript#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
